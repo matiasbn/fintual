@@ -45,20 +45,18 @@ Run the start script by typing:
 yarn start
 ```
 
-It will prompt the something like this:
+It will prompt something like this:
 ```
-01/04 17:29:11] INFO : startDate 01/04/20
-[01/04 17:29:11] INFO : finishDate 02/04/20
-[01/04 17:29:11] INFO : stock {"price":55,"date":"02/04/2020","profit":-34}
-[01/04 17:29:11] INFO : stock {"price":79,"date":"02/04/2020","profit":-56}
-[01/04 17:29:11] INFO : stock {"price":79,"date":"01/04/2020","profit":63}
-[01/04 17:29:11] INFO : stock {"price":23,"date":"02/04/2020","profit":26}
-[01/04 17:29:11] INFO : stock {"price":23,"date":"02/04/2020","profit":-23}
-[01/04 17:29:11] INFO : stock {"price":82,"date":"02/04/2020","profit":38}
-[01/04 17:29:11] INFO : stock {"price":52,"date":"02/04/2020","profit":-52}
-[01/04 17:29:11] INFO : profit -38
-[01/04 17:29:11] INFO : total price 393
-[01/04 17:29:11] INFO : annualized return -0.09669211195928754
+[02/04 01:31:12] INFO : startDate 28/03/20
+[02/04 01:31:12] INFO : finishDate 01/04/20
+[02/04 01:31:12] INFO : stock {"price":96,"date":"28/03/2020","profit":-70}
+[02/04 01:31:12] INFO : stock {"price":15,"date":"28/03/2020","profit":55}
+[02/04 01:31:12] INFO : stock {"price":40,"date":"29/03/2020","profit":59}
+[02/04 01:31:12] INFO : stock {"price":100,"date":"30/03/2020","profit":-79}
+[02/04 01:31:12] INFO : stock {"price":58,"date":"31/03/2020","profit":48}
+[02/04 01:31:12] INFO : profit 13
+[02/04 01:31:12] INFO : total price 309
+[02/04 01:31:12] INFO : annualized return 1126.7555453601626%
 ```
 
 Returning the profit of the stocks, the total price of those stocks and the annualized return
