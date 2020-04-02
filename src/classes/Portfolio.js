@@ -42,7 +42,7 @@ class Portofolio {
     const annualizedReturn = (1 + profit / prices) ** (1 / proportionalOfTheYear) - 1;
     Logger.info('profit', profit);
     Logger.info('total price', prices);
-    Logger.info('annualized return', `${annualizedReturn * 100}%`);
+    Logger.info('annualized return', `${(annualizedReturn.toFixed(3) || null) * 100}%`);
     return annualizedReturn;
   }
 }

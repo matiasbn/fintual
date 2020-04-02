@@ -34,7 +34,7 @@ const stocks = new Array(amountOfStocks)
   });
 
 // State start and finish date on DD/MM/YYYY format
-const startDate = '31/01/19';
+const startDate = '28/03/20';
 const finishDate = '01/04/20';
 
 // Instance portolio class
