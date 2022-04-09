@@ -20,7 +20,7 @@
     "app-root-path": "^3.0.0",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "pino": "^5.13.6",
     "pino-pretty": "^3.4.0"
   },
